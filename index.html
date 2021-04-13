@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>HR system</title>
+</head>
+<body>
+    <header>
+        <img id="banar" src="./Images/thumbnail.jpg" >
+        <nav>
+            <h1 id="Header">HR system</h1>
+        </nav>
+    </header>
+    <main>
+        <form id="add_employee">
+        <fieldset>
+            <legend>Add Employee</legend>
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" name="Name" id="name">
+            <br>
+            <label for="Email">Email</label>
+            <br>
+            <input type="text" name="Email" id="Email">
+            <br>
+            <label for="Department">Department</label>
+            <br>
+            <select name="Department" id="Department">
+                <option value="Call-Center">Call-Center</option>
+                <option value="Information-Technology">Information-Technology</option>
+                <option value="Human-Resources">Human-Resources</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input id="submit" type="submit" value="submit">
+
+        </fieldset>
+    </form>
+        <div>
+            <table id="Table"></table>
+        </div>
+    </main>
+    <footer id="footer">
+        &copy;ASAC 201d19 Team
+        <script src="./JS/app.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#banar{
+    width: 100%;
+}
+#Header{
+    position:absolute;
+    top: 10px;
+    left: 50%;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+#add_employee{
+position: absolute;
+top: 130px;
+left:100px;
+}
+#footer{
+    position: absolute;
+    top:870px;
+    left: 50%;
+    color: white;
+}
